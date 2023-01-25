@@ -147,6 +147,10 @@ div.margin-top {
         font-size: 5vh;
         text-align: center;
     }
+
+    .presentation {
+        padding: 1rem;
+    }
 }
 
 @media only screen and (max-width: 502px) {
@@ -158,5 +162,8 @@ div.margin-top {
 @media only screen and (max-width: 440px) {
     .perfil-cut {
         bottom: 450px!important;
+    }
+    .presentation {
+        padding: 0.3rem;
     }
 }
