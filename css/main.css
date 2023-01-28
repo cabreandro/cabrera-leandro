@@ -1,169 +1,198 @@
-/* Importo fuentes */
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+/* Fuente */
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
 
 /* Esquema de colores para los elementos */
-.orange{              background-color: #dd4814!important; }
-.violet-dark {        background-color: #2c001e!important; }
-.violet {             background-color: #5e2750!important; }
-.violet-soft {        background-color: #77216f!important; }
-.grey {               background-color: #aea79f!important; }
-.soft-grey {          background-color: #F3F3F3!important; }
-.dark {               background-color: #333333!important; }
+.orange {
+  background-color: #dd4814 !important;
+}
+.violet-dark {
+  background-color: #2c001e !important;
+}
+.violet {
+  background-color: #5e2750 !important;
+}
+.violet-soft {
+  background-color: #77216f !important;
+}
+.grey {
+  background-color: #aea79f !important;
+}
+.soft-grey {
+  background-color: #f3f3f3 !important;
+}
+.dark {
+  background-color: #333333 !important;
+}
 
 /* Esquema de colores para los textos */
-.text-orange{         color: #dd4814!important; }
-.text-violet-dark {   color: #2c001e!important; }
-.text-violet {        color: #5e2750!important; }
-.text-violet-soft {   color: #77216f!important; }
-.text-grey {          color: #aea79f!important; }
-.text-soft-grey {     color: #F3F3F3!important; }
-.text-dark {          color: #333333!important; }
+.text-orange {
+  color: #dd4814 !important;
+}
+.text-violet-dark {
+  color: #2c001e !important;
+}
+.text-violet {
+  color: #5e2750 !important;
+}
+.text-violet-soft {
+  color: #77216f !important;
+}
+.text-grey {
+  color: #aea79f !important;
+}
+.text-soft-grey {
+  color: #f3f3f3 !important;
+}
+.text-dark {
+  color: #333333 !important;
+}
 
 body {
-    margin-top: 3rem!important;
-    background-color:  #F3F3F3!important;
-    font-family: 'Ubuntu', sans-serif!important;
+  margin-top: 3rem !important;
+  background-color: #f3f3f3 !important;
+  font-family: "Ubuntu", sans-serif !important;
 }
 
 div.margin-top {
-    margin-top: 5rem;
+  margin-top: 5rem;
 }
 
 .presentation {
-    height: 100vh;
-    overflow: auto;
-    background-color: #2c001e!important;
-    padding: 5rem;
+  height: 100vh;
+  overflow: auto;
+  background-color: #2c001e !important;
+  padding: 5rem;
 }
 
 .curriculum-title {
-    font-size: 10vw;
+  font-size: 10vw;
 }
 
 .curriculum-subtitle {
-    font-size: 5vw;
+  font-size: 5vw;
 }
 
 .card-personal-info .card-body {
-    padding: 0;
+  padding: 0;
 }
 
 .pre-perfil-cut {
-    z-index: 31;
-    position: relative;
+  z-index: 31;
+  position: relative;
 }
 
 .padding-left-right {
-    padding-left: 1rem!important;
-    padding-right: 1rem!important;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
 }
 
 .perfil-cut {
-    content: ""!important;
-    position: absolute!important;
-    background: #5e2750!important;
-    width: 100%!important;
-    height: 90px!important;
-    bottom: 390px!important;
-    left: 0!important;
-    transform: skewY(-5deg)!important;
-    z-index: 30!important;
+  content: "" !important;
+  position: absolute !important;
+  background: #5e2750 !important;
+  width: 100% !important;
+  height: 90px !important;
+  bottom: 390px !important;
+  left: 0 !important;
+  transform: skewY(-5deg) !important;
+  z-index: 30 !important;
 }
 
-.timeline__content:hover{
-    background-color: #2c001e;
-    color: #aea79f;
+.timeline__content:hover {
+  background-color: #2c001e;
+  color: #aea79f;
 }
 
-.timeline__content:hover h4{
-    color: #dd4814;
+.timeline__content:hover h4 {
+  color: #dd4814;
 }
 
 .circle-dough {
-    position: relative;
+  position: relative;
 }
 
 .circle-dough-text {
-    background: transparent;
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin: -50px 0 0 -50px;
-    line-height: 100px;
-    text-align: center;
+  background: transparent;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -50px 0 0 -50px;
+  line-height: 100px;
+  text-align: center;
 }
 
 .circle-dough:hover .circle-dough-text {
-    color: #dd4814;
-    transform:scale(1.2); 
-    transition:transform 0.7s linear;
+  color: #dd4814;
+  transform: scale(1.2);
+  transition: transform 0.7s linear;
 }
 
 .card-subtitle {
-    margin-top: 1rem!important;
-    margin-bottom: 1rem!important;
+  margin-top: 1rem !important;
+  margin-bottom: 1rem !important;
 }
 
 .filter-orange {
-    filter: invert(37%) sepia(42%) saturate(5878%) hue-rotate(357deg) brightness(91%) contrast(89%);
+  filter: invert(37%) sepia(42%) saturate(5878%) hue-rotate(357deg)
+    brightness(91%) contrast(89%);
 }
 
 /* Custom breakpoints */
 @media only screen and (max-width: 3000px) {
-    .perfil-cut {
-        bottom: 430px!important;
-    }
+  .perfil-cut {
+    bottom: 430px !important;
+  }
 }
 
 @media only screen and (max-width: 1400px) {
-    .perfil-cut {
-        bottom: 460px!important;
-    }
+  .perfil-cut {
+    bottom: 460px !important;
+  }
 }
 
 @media only screen and (max-width: 1200px) {
-    .perfil-cut {
-        bottom: 510px!important;
-    }
+  .perfil-cut {
+    bottom: 510px !important;
+  }
 }
 
 @media only screen and (max-width: 992px) {
-    .perfil-cut {
-        bottom: 390px!important;
-    }
+  .perfil-cut {
+    bottom: 390px !important;
+  }
 }
 
 @media only screen and (max-width: 768px) {
-    .perfil-cut {
-        bottom: 415px!important;
-    }
-    .curriculum-title {
-        font-size: 10vh;
-        text-align: center;
-    }
-    .curriculum-subtitle {
-        font-size: 5vh;
-        text-align: center;
-    }
+  .perfil-cut {
+    bottom: 415px !important;
+  }
+  .curriculum-title {
+    font-size: 10vh;
+    text-align: center;
+  }
+  .curriculum-subtitle {
+    font-size: 5vh;
+    text-align: center;
+  }
 
-    .presentation {
-        padding: 1rem;
-    }
+  .presentation {
+    padding: 1rem;
+  }
 }
 
 @media only screen and (max-width: 502px) {
-    .perfil-cut {
-        bottom: 435px!important;
-    }
+  .perfil-cut {
+    bottom: 435px !important;
+  }
 }
 
 @media only screen and (max-width: 440px) {
-    .perfil-cut {
-        bottom: 450px!important;
-    }
-    .presentation {
-        padding: 0.3rem;
-    }
+  .perfil-cut {
+    bottom: 450px !important;
+  }
+  .presentation {
+    padding: 0.3rem;
+  }
 }
